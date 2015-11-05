@@ -63,14 +63,14 @@
   };
 
   loadPlugin = function() {
-    return loadScript('http://spider.0x1.in/javascripts/library/jquery-getpath.js', function() {
+    return loadScript('http://davecardwell.co.uk/javascript/jquery/plugins/jquery-getpath/jquery-getpath.js', function() {
       return start();
     });
   };
 
   loadJQuery = function() {
     if (typeof jQuery === "undefined" || jQuery === null) {
-      return loadScript('http://spider.0x1.in/javascripts/library/jquery.min.js', function() {
+      return loadScript('http://code.jquery.com/jquery-2.1.4.min.js', function() {
         return loadPlugin();
       });
     } else {
