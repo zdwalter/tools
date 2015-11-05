@@ -63,7 +63,7 @@
   };
 
   loadPlugin = function() {
-    return loadScript('http://davecardwell.co.uk/javascript/jquery/plugins/jquery-getpath/jquery-getpath.js', function() {
+    return loadScript('https://raw.githubusercontent.com/zdwalter/tools/master/jquery-getpath.js', function() {
       return start();
     });
   };
